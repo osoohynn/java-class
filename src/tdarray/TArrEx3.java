@@ -10,7 +10,7 @@ public class TArrEx3 {
 
         Scanner sc = new Scanner(System.in);
 
-        while (true) {
+        while (count < 10) {
             System.out.println("1. 상품 등록 | 2. 상품 목록 | 3. 종료");
             System.out.print("메뉴를 선택하세요: ");
             int choice = sc.nextInt();
@@ -28,11 +28,10 @@ public class TArrEx3 {
                 count++;
             } else if (choice == 2) {
                 for (int i = 0; i < count; i++) {
-//                    if (arr[i][0] == null) continue;
-//                    if (arr[i][1] == null) continue;
                     System.out.println(arr[i][0] + ": " + arr[i][1] + "원");
                 }
             } else if (choice == 3) {
+                System.out.println("프로그램을 종료합니다.");
                 break;
             }
         }
