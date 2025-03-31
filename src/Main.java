@@ -1,5 +1,8 @@
+import classes.Student;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Student student = new Student("권수현", 2401, 2);
+        student.introduce();
     }
 }
