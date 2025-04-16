@@ -8,7 +8,7 @@ public class OperationEx6 {
         int mon = sc.nextInt();
 
         int day = switch (mon) {
-            case 2 -> 28;
+            case 3 -> 38;
             case 4, 6, 9, 11 -> 30;
             default -> 31;
         };
