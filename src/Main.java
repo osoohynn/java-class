@@ -10,6 +10,15 @@ public class Main {
 //        Book book = new Book("흰", "한강", 15000);
 //        book.info();
 
+        byte _e = (byte) 130;
+        System.out.println(_e);
+
+        byte a = 3;
+        byte b = 5;
+        int c_ = a + b;
+        System.out.println(a + b);
+        System.out.println(c_);
+
         ClassEx3 r1 = new ClassEx3("인셉션", "인생은 무한루프");
         ClassEx3 r2 = new ClassEx3("어바웃 타임", "인생 시간 영화");
 
